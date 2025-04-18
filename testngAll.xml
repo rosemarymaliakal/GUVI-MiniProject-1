@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://www.demoblaze.com/"></parameter>
+<listeners>
+	<listener class-name="utils.Listener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.TC_002_LoginTest"/>
+      <class name="test.TC_003_ProductCategoriesDisplayTest"/>
+      <class name="test.TC_004_ProductCartTest"/>
+      <class name="test.TC_007_LogoutTest"/>
+      <class name="test.TC_001_SignupTest"/>
+      <class name="test.TC_005_CartTest"/>
+      <class name="test.TC_006_PurchaseFunctionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
