@@ -52,7 +52,7 @@ public class ProductPage extends ProjectSepecificationMethods{
 	
 	
 	public ProductPage displayUsername(String username) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		WebElement userVisible = wait.until(ExpectedConditions.visibilityOf(nameOfUser));
 		String userText = userVisible.getText();
 		String originalText="Welcome "+username;

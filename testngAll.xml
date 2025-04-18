@@ -7,13 +7,13 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
+    <class name="test.TC_001_SignupTest"/>
       <class name="test.TC_002_LoginTest"/>
       <class name="test.TC_003_ProductCategoriesDisplayTest"/>
       <class name="test.TC_004_ProductCartTest"/>
-      <class name="test.TC_007_LogoutTest"/>
-      <class name="test.TC_001_SignupTest"/>
       <class name="test.TC_005_CartTest"/>
       <class name="test.TC_006_PurchaseFunctionTest"/>
+      <class name="test.TC_007_LogoutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

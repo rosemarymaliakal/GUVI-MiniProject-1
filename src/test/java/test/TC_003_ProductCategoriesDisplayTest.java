@@ -21,13 +21,13 @@ public class TC_003_ProductCategoriesDisplayTest extends ProjectSepecificationMe
 	public void HomepageDislay() {
 		LoginPage obj1 = new LoginPage(driver);
 		obj1.clickLoginHome()
-		.enterUsername("uniquexyz")
-		.enterPassword("xyz")
+		.enterUsername("uniquejom")
+		.enterPassword("jom")
 		.clickLogIn();
 		
 		ProductPage obj2 = new ProductPage(driver);
 		
-		obj2.displayUsername("uniquexyz");
+		obj2.displayUsername("uniquejom");
 		
 		obj2.displayHome()
 		.displayContact()

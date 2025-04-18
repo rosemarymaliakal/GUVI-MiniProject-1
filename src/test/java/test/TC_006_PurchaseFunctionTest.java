@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import base.ProjectSepecificationMethods;
 import pages.LoginPage;
+import pages.ProductCartPage;
 import pages.PurchasePage;
 
 public class TC_006_PurchaseFunctionTest extends ProjectSepecificationMethods {
@@ -21,12 +22,18 @@ public class TC_006_PurchaseFunctionTest extends ProjectSepecificationMethods {
 	public void PurchaseTest() {
 		LoginPage obj1 = new LoginPage(driver);
 		obj1.clickLoginHome()
-		.enterUsername("fghqw")
-		.enterPassword("qwerty")
+		.enterUsername("uniquejom")
+		.enterPassword("jom")
 		.clickLogIn();
+		
+		ProductCartPage obj2 = new ProductCartPage(driver);
+		obj2.usernameWait()
+		.scrollDown()
+		.clickonProduct() 
+		.clickonCart();
 
-		PurchasePage obj2 = new PurchasePage(driver);
-		obj2.clickonCart()
+		PurchasePage obj3 = new PurchasePage(driver);
+		obj3.clickonCart()
 		.clickonPlaceOrder()
 		.verifyPlaceorderModal()
 		.verifyUserSection()

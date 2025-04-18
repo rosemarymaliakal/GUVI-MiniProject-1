@@ -16,7 +16,7 @@ import base.ProjectSepecificationMethods;
 
 public class CartPage extends ProjectSepecificationMethods{
 	
-	@FindBy(xpath = "//td[contains(text(),'Samsung')]/following-sibling::td/a")
+	@FindBy(xpath = "//td[contains(text(),'Sony')]/following-sibling::td/a")
 	WebElement deleteCart;
 	
 	@FindBy(xpath = "//tbody[@id='tbodyid']/tr")
@@ -37,13 +37,12 @@ public class CartPage extends ProjectSepecificationMethods{
 	@FindBy(xpath = "//tr[@class='success']/td[2]")
 	WebElement itemName;
 	
-	@FindBy(xpath = "//td[contains(text(),'Samsung')]")
+	@FindBy(xpath = "//td[contains(text(),'Iphone')]")
 	WebElement itemonCart;
 	
 	@FindBy(id="tbodyid")
 	WebElement tableonCart;
 	
-//	@FindBy(xpath = "//tr[@class='success']")
 	@FindBy(xpath = "//td[contains(text(),'Iphone')]")
 	WebElement mobile;
 	

@@ -22,8 +22,8 @@ public class TC_007_LogoutTest extends ProjectSepecificationMethods {
 	public void LogoutTest() {
 		LoginPage obj1 = new LoginPage(driver);
 		obj1.clickLoginHome()
-		.enterUsername("fghqw")
-		.enterPassword("qwerty")
+		.enterUsername("uniquejom")
+		.enterPassword("jom")
 		.clickLogIn();
 		
 		LogoutPage obj2 = new LogoutPage(driver);

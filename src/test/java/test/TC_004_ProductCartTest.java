@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import base.ProjectSepecificationMethods;
 import pages.LoginPage;
-import pages.NokiaProductPage;
 import pages.ProductCartPage;
 import pages.SecondProductPage;
 
@@ -23,8 +22,8 @@ public class TC_004_ProductCartTest extends ProjectSepecificationMethods {
 	public void HomepageDislay() {
 		LoginPage obj1 = new LoginPage(driver);
 		obj1.clickLoginHome()
-		.enterUsername("uniquexyz")
-		.enterPassword("xyz")
+		.enterUsername("uniquejom")
+		.enterPassword("jom")
 		.clickLogIn();
 		
 		ProductCartPage obj2 = new ProductCartPage(driver);

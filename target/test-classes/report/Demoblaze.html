@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Demo Blaze Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 17, 2025 07:37:17 pm</span></a>
+<a href="#"><span class="badge badge-primary">Apr 18, 2025 03:14:58 pm</span></a>
 </li>
 </ul>
 </div>
@@ -45,11 +45,6 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -81,7 +76,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -101,26 +96,202 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author="Rosemary"
           tag="SanityTest"
           device="">
           <div class="test-detail">
-            <p class="name">Cart Test</p>
+            <p class="name">Signup Test</p>
             <p class="text-sm">
-              <span>7:37:17 pm</span> / <span>00:00:22:342</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>3:14:58 pm</span> / <span>00:00:06:903</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Cart Test</h5>
-<span class='badge badge-success'>04.17.2025 7:37:17 pm</span>
-<span class='badge badge-danger'>04.17.2025 7:37:40 pm</span>
-<span class='badge badge-default'>00:00:22:342</span>
+<h5 class="test-status text-pass">Signup Test</h5>
+<span class='badge badge-success'>04.18.2025 3:14:58 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:15:05 pm</span>
+<span class='badge badge-default'>00:00:06:903</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Rosemary</span>
+<span class="badge badge-pill badge-default">SanityTest</span></div>
+<div class="m-t-10 m-l-5">Testing Signup Button is visiblity,clickable,Modal opening</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:15:05 pm</td>
+        <td>
+          Test case passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="Rosemary"
+          tag="SanityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test</p>
+            <p class="text-sm">
+              <span>3:15:06 pm</span> / <span>00:00:07:172</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test</h5>
+<span class='badge badge-success'>04.18.2025 3:15:06 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:15:13 pm</span>
+<span class='badge badge-default'>00:00:07:172</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Rosemary</span>
+<span class="badge badge-pill badge-default">SanityTest</span></div>
+<div class="m-t-10 m-l-5">Testing Login Button is visiblity,clickable and Validating</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:15:13 pm</td>
+        <td>
+          Test case passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="Rosemary"
+          tag="SanityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">HomePageDisplay Test</p>
+            <p class="text-sm">
+              <span>3:15:13 pm</span> / <span>00:00:08:235</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">HomePageDisplay Test</h5>
+<span class='badge badge-success'>04.18.2025 3:15:13 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:15:21 pm</span>
+<span class='badge badge-default'>00:00:08:235</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Rosemary</span>
+<span class="badge badge-pill badge-default">SanityTest</span></div>
+<div class="m-t-10 m-l-5">Testing Categories, Menus and Logo in Homepage</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:15:21 pm</td>
+        <td>
+          Test case passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="Rosemary"
+          tag="SanityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductCart Test</p>
+            <p class="text-sm">
+              <span>3:15:22 pm</span> / <span>00:00:18:187</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ProductCart Test</h5>
+<span class='badge badge-success'>04.18.2025 3:15:22 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:15:40 pm</span>
+<span class='badge badge-default'>00:00:18:187</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Rosemary</span>
+<span class="badge badge-pill badge-default">SanityTest</span></div>
+<div class="m-t-10 m-l-5">Testing the redirection to product, Product details,adding to cart and Cart count</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:15:40 pm</td>
+        <td>
+          Test case passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="Rosemary"
+          tag="SanityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Cart Test</p>
+            <p class="text-sm">
+              <span>3:15:40 pm</span> / <span>00:00:43:879</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Cart Test</h5>
+<span class='badge badge-success'>04.18.2025 3:15:40 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:16:24 pm</span>
+<span class='badge badge-default'>00:00:43:879</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -129,60 +300,103 @@
 <span class="badge badge-pill badge-default">SanityTest</span></div>
 <div class="m-t-10 m-l-5">Testing Cart after deletion and Price after modification</div>
 </div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    
-
-<img data-featherlight='C:\Users\arunc\eclipse-workspace\guviMiniProject1\src\test\resources\SnapCartTest2025-04-17_19-37-39.png' src="C:\Users\arunc\eclipse-workspace\guviMiniProject1\src\test\resources\SnapCartTest2025-04-17_19-37-39.png">
-  
-    <div class="title">Failure screenshot</div>
-
-    </div></div>
-<div class="detail-body mt-4">
+</div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>7:37:39 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:16:24 pm</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (3a47d94ac06487278c1d502e91a085e3)] -> xpath: //td/following-sibling::td/a] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.95, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\arunc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57978/devtoo..., se:cdpVersion: 135.0.7049.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a47d94ac06487278c1d502e91a085e3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.CartPage.clickonDelete(CartPage.java:71)
-	at test.TC_005_CartTest.CartTest(TC_005_CartTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</textarea>
-          
+          Test case passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="Rosemary"
+          tag="SanityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Purchase Function Test</p>
+            <p class="text-sm">
+              <span>3:16:25 pm</span> / <span>00:00:12:341</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Purchase Function Test</h5>
+<span class='badge badge-success'>04.18.2025 3:16:25 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:16:37 pm</span>
+<span class='badge badge-default'>00:00:12:341</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Rosemary</span>
+<span class="badge badge-pill badge-default">SanityTest</span></div>
+<div class="m-t-10 m-l-5">Testing Purchase validation details and Payment</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:16:37 pm</td>
+        <td>
+          Test case passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="Rosemary"
+          tag="SanityTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Logout Test</p>
+            <p class="text-sm">
+              <span>3:16:37 pm</span> / <span>00:00:09:676</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logout Test</h5>
+<span class='badge badge-success'>04.18.2025 3:16:37 pm</span>
+<span class='badge badge-danger'>04.18.2025 3:16:47 pm</span>
+<span class='badge badge-default'>00:00:09:676</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Rosemary</span>
+<span class="badge badge-pill badge-default">SanityTest</span></div>
+<div class="m-t-10 m-l-5">Testing Logout Button visiblity and redirection</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:16:47 pm</td>
+        <td>
+          Test case passed
         </td>
       </tr>
   </tbody>
@@ -199,56 +413,7 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:37:17 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>Cart Test</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view category-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
@@ -259,15 +424,15 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>7</span>
 </span>
 <p class="name">SanityTest</p>
-<p class="duration text-sm">1 tests</p>
+<p class="duration text-sm">7 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>SanityTest</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -278,11 +443,53 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:37:17 pm</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:14:58 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>Cart Test</a>
+<a href="#" class="linked" test-id='1' id='1'>Signup Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Login Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>HomePageDisplay Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>ProductCart Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Cart Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:16:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Purchase Function Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:16:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Logout Test</a>
 </td>
 </tr>
 </tbody>
@@ -308,15 +515,15 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>7</span>
 </span>
 <p class="name">Rosemary</p>
-<p class="duration text-sm">1 tests</p>
+<p class="duration text-sm">7 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>Rosemary</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -327,11 +534,53 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:37:17 pm</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:14:58 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>Cart Test</a>
+<a href="#" class="linked" test-id='1' id='1'>Signup Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Login Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>HomePageDisplay Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>ProductCart Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:15:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Cart Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:16:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Purchase Function Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:16:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Logout Test</a>
 </td>
 </tr>
 </tbody>
@@ -351,25 +600,25 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 17, 2025 07:37:17 pm</h3>
+<h3>Apr 18, 2025 03:14:58 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 17, 2025 07:37:40 pm</h3>
+<h3>Apr 18, 2025 03:16:48 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>7</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -385,12 +634,12 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='100%'>
+<b>7</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -408,9 +657,9 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>7</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>1</b> events failed,
+<small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -427,7 +676,7 @@ Session ID: 3a47d94ac06487278c1d502e91a085e3
 </div></div>
 <script>
 var timeline = {
-"Cart Test":22.342
+"Signup Test":6.903,"Login Test":7.172,"HomePageDisplay Test":8.235,"ProductCart Test":18.187,"Cart Test":43.879,"Purchase Function Test":12.341,"Logout Test":9.676
 };
 </script>
 <div class="row">
@@ -439,11 +688,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Rosemary</td>
+<td>7</td>
 <td>0</td>
-<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -456,11 +705,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>SanityTest</td>
+<td>7</td>
 <td>0</td>
-<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -471,8 +720,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 7,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -488,8 +737,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 1,
+passEvents: 7,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

@@ -7,15 +7,59 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="test.TC_004_ProductCartTest">
+        <methods>
+          <include name="HomepageDislay"/>
+          <include name="reportInitialization"/>
+          <include name="launchBrowser"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="closeReport"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- test.TC_004_ProductCartTest -->
+      <class name="test.TC_007_LogoutTest">
+        <methods>
+          <include name="reportInitialization"/>
+          <include name="LogoutTest"/>
+          <include name="setup"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeReport"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- test.TC_007_LogoutTest -->
+      <class name="test.TC_003_ProductCategoriesDisplayTest">
+        <methods>
+          <include name="HomepageDislay"/>
+          <include name="reportInitialization"/>
+          <include name="setup"/>
+          <include name="launchBrowser"/>
+          <include name="testDetails"/>
+          <include name="closeReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.TC_003_ProductCategoriesDisplayTest -->
+      <class name="test.TC_002_LoginTest">
+        <methods>
+          <include name="loginButton"/>
+          <include name="reportInitialization"/>
+          <include name="setup"/>
+          <include name="launchBrowser"/>
+          <include name="testDetails"/>
+          <include name="closeReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.TC_002_LoginTest -->
       <class name="test.TC_005_CartTest">
         <methods>
           <include name="reportInitialization"/>
           <include name="CartTest"/>
           <include name="launchBrowser"/>
           <include name="setup"/>
-          <include name="closeBrowser"/>
-          <include name="closeReport"/>
           <include name="testDetails"/>
+          <include name="closeReport"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- test.TC_005_CartTest -->
     </classes>

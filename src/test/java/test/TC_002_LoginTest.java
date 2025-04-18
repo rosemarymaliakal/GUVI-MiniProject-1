@@ -4,7 +4,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import base.ProjectSepecificationMethods;
-import pages.HomePage;
 import pages.LoginPage;
 
 public class TC_002_LoginTest extends ProjectSepecificationMethods {
@@ -27,10 +26,10 @@ public class TC_002_LoginTest extends ProjectSepecificationMethods {
 		obj2.clickableLogin();
 		
 		obj2.clickLoginHome()
-		.enterUsername("uniquexyz")
-		.enterPassword("xyz")
+		.enterUsername("uniquejom")
+		.enterPassword("jom")
 		.clickLogIn()
-		.validateLogin("uniquexyz");
+		.validateLogin("uniquejom");
 		
 		
 	}

@@ -24,8 +24,8 @@ public class TC_005_CartTest extends ProjectSepecificationMethods {
 	public void CartTest() {
 		LoginPage obj1 = new LoginPage(driver);
 		obj1.clickLoginHome()
-		.enterUsername("uniquexyz")
-		.enterPassword("xyz")
+		.enterUsername("uniquejom")
+		.enterPassword("jom")
 		.clickLogIn();
 
 		PurchasePage obj2 = new PurchasePage(driver);

@@ -28,7 +28,7 @@ public class TC_001_SignupTest extends ProjectSepecificationMethods {
 		
 		.clickSignup()
 		
-		.validateSignup("uniquexyz", "xyz");
+		.validateSignup("uniquejom", "jom");
 		
 	}
 
